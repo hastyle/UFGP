@@ -944,7 +944,6 @@ a:hover {
 .footer-background {
   position: relative;
   margin-top: 100px;
-  height: 500px;
   background-color: #373737;
   border-top: 1px solid black;
 }
@@ -994,15 +993,7 @@ a:hover {
 }
 
 .footer-logo {
-  margin: 20px auto;
-  width: 200px;
-  color: white;
-  border: 3px solid white;
-  text-align: center;
-  padding: 10px 0;
-  opacity: 0.4;
-  text-transform: uppercase;
-  letter-spacing: 5px;
+  margin: 30px auto;
 }
 
 .col-1 {
@@ -1039,6 +1030,22 @@ a:hover {
   color: white;
   padding: 0 60px;
   line-height: 30px;
+}
+
+.ufgp-logo {
+  background-image: url(imgs/ufgp-logo.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 180px;
+  height: 200px;
+  margin: 30px auto;
+}
+
+.designer {
+  color: white;
+  font-size: 8px;
+  opacity: 0.8;
 }
 
 .blogpost1 {
